@@ -29,7 +29,7 @@ export default function ScrollModal2({ modal, setModal }) {
       centered
     >
       <Modal.Header closeButton>
-        <Modal.Title>普通にサイズ変更する場合</Modal.Title>
+        <Modal.Title>scaleでサイズ変更する場合</Modal.Title>
       </Modal.Header>
       <Modal.Body className="mw-100">
         <div className={styles.imgContainer}>
