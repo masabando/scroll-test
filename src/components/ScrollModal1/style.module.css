@@ -1,0 +1,11 @@
+.imgContainer {
+  overflow: auto; /* 中の画像があふれたらスクロール */
+  width: 100%;
+  aspect-ratio: 466 / 350; /* 画像に合わせたアスペクト比 */
+}
+
+.img {
+  width: 100%;
+  user-select: none; /* 画像の選択を無効化 */;
+  -webkit-user-select: none; /* Safari対応 */;
+}
