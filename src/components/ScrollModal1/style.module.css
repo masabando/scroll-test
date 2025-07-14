@@ -6,6 +6,7 @@
 
 .img {
   width: 100%;
+  transition: width 0.3s;
   user-select: none; /* 画像の選択を無効化 */;
   -webkit-user-select: none; /* Safari対応 */;
 }
